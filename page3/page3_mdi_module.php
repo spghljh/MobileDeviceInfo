@@ -9,7 +9,7 @@
 <div class="mdi1_total1">  
 
 <div class="Total_Count">
-                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_TotalCpu.php';?></a></div>
+                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_TotalCpu.php';?></a></div>
                 <div class="Total_Count_Processor"><a>프로세서</a></div>
             </div>
 
@@ -22,7 +22,7 @@
 
 
 <div class="mdi_core_total">   
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_2core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_2core.php';?>
 
 <div class="mdi_core">   
 
@@ -34,7 +34,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_4core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_4core.php';?>
 
 <div class="mdi_core">   
 
@@ -45,7 +45,7 @@
 
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_6core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_6core.php';?>
 
 <div class="mdi_core">   
 
@@ -57,7 +57,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_8core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_8core.php';?>
 
 <div class="mdi_core">   
 
@@ -72,7 +72,7 @@
 
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_CorePie.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_CorePie.php';?>
 <div class="mdi_corepie">   
 <div id="mdi_CorePie" style="width: 800px; height: 600px;"></div>
 </div>

@@ -1,14 +1,14 @@
 <head>
 <title>page1</title>
 <meta charset="utf-8">
-<link href="../css/all.css" rel="stylesheet">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
-<link href="../css/page1_body.css" rel="stylesheet">
-<link href="../css/page0_body_total.css" rel="stylesheet">
+<link href="/mdi1/css/all.css" rel="stylesheet">
+<link href="/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/css/index_body.css" rel="stylesheet">
+<link href="/mdi1/css/page1_body.css" rel="stylesheet">
+<link href="/mdi1/css/page0_body_total.css" rel="stylesheet">
 </head>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 
 <?php 
@@ -35,7 +35,7 @@ $sql2 = mq("select * from mcl where $catagory like '%$search_con%' order by id_c
 
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
 
 
 <div class="ground"><!--div class="ground"-->
@@ -135,13 +135,13 @@ $sql2 = mq("select * from mcl where $catagory like '%$search_con%' order by id_c
 
     <td>
         <div class="total1_manf_image">
-            <div class="total2_manf_image"><?php include "./percpuBrand.php"; ?></div>
+            <div class="total2_manf_image"><?php include "/mdi1/page1/percpuBrand.php"; ?></div>
         </div>
     </td>
 
     <td>
         <div class="total1_name">
-            <div class="total2_name"><a href="../page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$name_cpu?></a></div>
+            <div class="total2_name"><a href="/mdi1/page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$name_cpu?></a></div>
         </div>
     </td>
 

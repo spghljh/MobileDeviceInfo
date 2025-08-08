@@ -1,13 +1,13 @@
 <head>
 <title>user_LoginForm</title>
 <meta charset="utf-8">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/main_header_menu_search.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
+<link href="/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/css/main_header_menu_search.css" rel="stylesheet">
+<link href="/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/css/index_body.css" rel="stylesheet">
 </head>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
 
 
 
@@ -105,7 +105,7 @@
 
 
 		if (((document.login.id.value)==('eris'))){
-		window.location.href = "../admin/index_admin.php";
+		window.location.href = "/mdi1/admin/index_admin.php";
 		}
 
 
@@ -128,7 +128,7 @@
 
 									<div class="user_layout_form_line_box1" style="margin-top: -10px;">
 
-									<?php include $_SERVER['DOCUMENT_ROOT'].'/users/user_semi.php';?>
+									<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/users/user_semi.php';?>
 
 									<a class="user_layout_form_line_box1_semi">로그인</a>
 
@@ -159,7 +159,7 @@
 											</div>
 
 											<div class="user_layout_form_line_content">
-													<button class = "register_button" type="button" onclick="location.href='./user_RegisterForm.php'"><a>회원가입</a></button>
+													<button class = "register_button" type="button" onclick="location.href='/mdi1/users/user_RegisterForm.php'"><a>회원가입</a></button>
 											</div>
 
 

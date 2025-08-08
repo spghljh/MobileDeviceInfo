@@ -1,29 +1,29 @@
 <head>
 <title>page2view_id.php</title>
 <meta charset="utf-8">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/page0_body_total.css" rel="stylesheet">
-<link href="../css/main_header_menu_search.css" rel="stylesheet">
-<link href="../css/page2view_id_body.css" rel="stylesheet">
-<link href="../css/page2view_id_ForMainTitle.css" rel="stylesheet">
-<link href="../css/page2view_id_CpuGraph.css" rel="stylesheet">
+<link href="/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/css/index_body.css" rel="stylesheet">
+<link href="/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/css/page0_body_total.css" rel="stylesheet">
+<link href="/mdi1/css/main_header_menu_search.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_body.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_ForMainTitle.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_CpuGraph.css" rel="stylesheet">
 
 <!--page2view_id 처럼 통합 필요 : version2-line_spec-chart_div 로-->
-<link href="../css/page2view_id_body_DeviceToManf.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/id_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/release_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/type_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/name_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/manf_device.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_body_DeviceToManf.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_spec/id_device.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_spec/release_device.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_spec/type_device.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_spec/name_device.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_spec/manf_device.css" rel="stylesheet">
 <!--page2view_id 처럼 통합 필요 : version2-line_spec-chart_div 로-->
 
-<link href="../css/page2view_id_body_modify.css" rel="stylesheet">
+<link href="/mdi1/css/page2view_id_body_modify.css" rel="stylesheet">
 </head>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
 
 
 <?php
@@ -128,7 +128,7 @@
                                            <div class="page2view_id_body_title_part4_ForMainTitle">
                                            <table>
                                             
-                                                <tr><td><?php include "./page2view_id_maintitle/AddChoice_device.php"; ?></td></tr>
+                                                <tr><td><?php include($_SERVER['DOCUMENT_ROOT'] . '/mdi1/page2/page2view_id_maintitle/AddChoice_device.php'); ?></td></tr>
 
                                             </table>
                                             </div>
@@ -279,27 +279,27 @@
 <div class="module_spec_device" >
   
         <div class="module_spec_device_version2">
-        <?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_spec/ManfGraph_id_device.php');?>
+        <?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_spec/ManfGraph_id_device.php');?>
         </div>
 
         <div class="module_spec_device_version2">
-        <?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_spec/CpuGraph_id_device.php');?>
+        <?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_spec/CpuGraph_id_device.php');?>
         </div>
 
         <div class="module_spec_device_version2">
-        <?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_spec/TypeGraph_id_device.php');?>
+        <?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_spec/TypeGraph_id_device.php');?>
         </div>
 
         <div class="module_spec_device_version2">
-        <?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_spec/ReleaseGraph_id_device.php');?>
+        <?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_spec/ReleaseGraph_id_device.php');?>
         </div>
 
         <div class="module_spec_device_version2">
-        <?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_spec/DiagnoalGraph_id_device.php');?>
+        <?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_spec/DiagnoalGraph_id_device.php');?>
         </div>
 
         <div class="module_spec_device_version2">
-        <?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_spec/WeightGraph_id_device.php');?>
+        <?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_spec/WeightGraph_id_device.php');?>
         </div>
 
 
@@ -339,9 +339,9 @@
 <div class="module2">  
 <div class="module3">
 
-<?php require $_SERVER['DOCUMENT_ROOT'].'/action/(MDL_MANF_manf_device)WITH(MDL_MANF_id_device_release_device)_CREATE.php';?>
-<?php require ($_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_cpuCount/CpuGraph_MDL_MANF_cpuCount.php');?>
-<?php require $_SERVER['DOCUMENT_ROOT'].'/action/(MDL_MANF_manf_device)WITH(MDL_MANF_id_device_release_device)_DROP.php';?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/action/(MDL_MANF_manf_device)WITH(MDL_MANF_id_device_release_device)_CREATE.php';?>
+<?php require ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_cpuCount/CpuGraph_MDL_MANF_cpuCount.php');?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/action/(MDL_MANF_manf_device)WITH(MDL_MANF_id_device_release_device)_DROP.php';?>
 
 </div> 
 </div>
@@ -381,7 +381,7 @@
 <div class="module2">  
 <div class="module3">
 
-<?php require $_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_YearLineup/page2view_id_body_DeviceToYearLineup.php';?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_YearLineup/page2view_id_body_DeviceToYearLineup.php';?>
 
 </div>   
 </div>

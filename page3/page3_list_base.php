@@ -1,18 +1,18 @@
 <head>
 <title>page1.php</title>
 <meta charset="utf-8">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
-<link href="../css/page1_body.css" rel="stylesheet">
-<link href="../css/page2_body.css" rel="stylesheet">
-<link href="../css/page0_body_total.css" rel="stylesheet">
-<link href="../css/page3.css" rel="stylesheet">
+<link href="/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/css/index_body.css" rel="stylesheet">
+<link href="/mdi1/css/page1_body.css" rel="stylesheet">
+<link href="/mdi1/css/page2_body.css" rel="stylesheet">
+<link href="/mdi1/css/page0_body_total.css" rel="stylesheet">
+<link href="/mdi1/css/page3.css" rel="stylesheet">
 </head>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
 
 
 
@@ -137,7 +137,7 @@
             <div class="manf_cpu_base">
 
                 <div class="manf_cpu_base_logo">
-                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/page1/percpuBrand.php'; ?></a>
+                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/percpuBrand.php'; ?></a>
                 </div>
 
                 <div class="manf_cpu_base_name">
@@ -362,7 +362,7 @@
             <div class="manf_device_base">
 
                 <div class="manf_device_base_logo">
-                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/page2/perBrand.php'; ?></a>
+                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/perBrand.php'; ?></a>
                 </div>
 
                 <div class="manf_device_base_name">

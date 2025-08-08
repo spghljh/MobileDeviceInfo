@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <?php
     
@@ -43,13 +43,13 @@
 
               <div class="chart_div_image4" style="width:45px;">
               <div class="chart_div_image4_brand " style="margin-right:5px;">
-                  <a href="../page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>" ><?php include $_SERVER['DOCUMENT_ROOT'].'/page1/percpuBrand.php'; ?></a>
+                  <a href="/mdi1/page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>" ><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/percpuBrand.php'; ?></a>
                   </div>
               </div>
 
               <div class="chart_div_image3" style="width:100px; justify-content:left; font-size:20px;">
                   <div >
-                  <a class="chart_div_image3_parameter" href="../page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>"><?=$manf_cpu?></a>
+                  <a class="chart_div_image3_parameter" href="/mdi1/page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>"><?=$manf_cpu?></a>
                   </div>
               </div>
 
@@ -57,7 +57,7 @@
             <div class="chart_div_graph_cpu_nochart">
             <div class="chart_div_graph_cpu_nochart_button" >
                     
-                <a href="../page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>">
+                <a href="/mdi1/page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>">
 
                     <a style=
                     "

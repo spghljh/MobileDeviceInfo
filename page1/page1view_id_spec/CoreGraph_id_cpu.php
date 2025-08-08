@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <?php
 
@@ -154,8 +154,8 @@ if (($core1>=0)){
 
               
               <div class="chart_div_image3" >
-                  <div onclick="location.href='../page3/page3.php' ">
-                  <a class="chart_div_image3_parameter" href="../page1/page1_SearchModule_ResultPage.php?catgo=core_cpu&search=<?=$core_cpu?>"><?=$core_cpu?></a>
+                  <div onclick="location.href='/mdi1/page3/page3.php' ">
+                  <a class="chart_div_image3_parameter" href="/mdi1/page1/page1_SearchModule_ResultPage.php?catgo=core_cpu&search=<?=$core_cpu?>"><?=$core_cpu?></a>
                   </div>
               </div>
 
@@ -168,7 +168,7 @@ if (($core1>=0)){
 
          
               <div class="chart_div_graph_core_cpu" >
-                  <div id="chart_div_core" style="width: 100%; height:100%;" onclick="location.href='./page1_SearchModule_ResultPage.php?catgo=core_cpu&search=<?=$core_cpu?>' ">
+                  <div id="chart_div_core" style="width: 100%; height:100%;" onclick="location.href='/mdi1/page1/page1_SearchModule_ResultPage.php?catgo=core_cpu&search=<?=$core_cpu?>' ">
                   </div>
               </div>
 

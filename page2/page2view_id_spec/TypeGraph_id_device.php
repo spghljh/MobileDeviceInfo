@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <?php
        
@@ -42,8 +42,8 @@
               </div>
 
               <div class="chart_div_image3" style="width:80px; justify-content:left;">
-                  <div onclick="location.href='../page3/page3.php' ">
-                  <a class="chart_div_image3_parameter" href="../page2/page2_SearchModule_ResultPage.php?catgo=type_device&search=<?=$type_device?>"><?=$type_device?></a>
+                  <div onclick="location.href='/mdi1/page3/page3.php' ">
+                  <a class="chart_div_image3_parameter" href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=type_device&search=<?=$type_device?>"><?=$type_device?></a>
                   </div>
               </div>
 
@@ -51,10 +51,10 @@
          
               <div class="chart_div_graph_device_nochart_type" >
                 <div class="chart_div_graph_device_nochart_type1" >
-                  <a href="../page2/page2_SearchModule_ResultPage.php?catgo=type_device&search=laptop">laptop</a>
+                  <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=type_device&search=laptop">laptop</a>
                   </div>
                   <div class="chart_div_graph_device_nochart_type2" >
-                  <a href="../page2/page2_SearchModule_ResultPage.php?catgo=type_device&search=smartphone">smartphone</a>
+                  <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=type_device&search=smartphone">smartphone</a>
                   </div>
               </div>
 

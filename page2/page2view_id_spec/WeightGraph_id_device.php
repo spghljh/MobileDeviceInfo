@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <?php
      
@@ -39,7 +39,7 @@
               
               <div class="chart_div_image3" style="width:80px;">
                   <div>
-                  <a class="chart_div_image3_parameter" href="../page2/page2_SearchModule_ResultPage.php?catgo=weight_device&search=<?=$weight_device?>"><?=$weight_device?></a>
+                  <a class="chart_div_image3_parameter" href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=weight_device&search=<?=$weight_device?>"><?=$weight_device?></a>
                   </div>
               </div>
 
@@ -53,7 +53,7 @@
          
               <div class="chart_div_graph_device_nochart" >
               <div class="chart_div_graph_device_nochart_button" >
-                  <a href="../page2/page2_SearchModule_ResultPage.php?catgo=weight_device&search=<?=$weight_device?>">유사한 무게의 다른 제품</a>
+                  <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=weight_device&search=<?=$weight_device?>">유사한 무게의 다른 제품</a>
                   </div>
               </div>
 

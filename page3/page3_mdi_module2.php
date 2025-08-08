@@ -1,5 +1,5 @@
 
-<link href="../css/page3.css" rel="stylesheet">
+<link href="/mdi1/css/page3.css" rel="stylesheet">
 
 
 
@@ -8,7 +8,7 @@
 <div class="mdi1_total1">  
 
 <div class="Total_Count">
-                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_TotalDevice.php';?></a></div>
+                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_TotalDevice.php';?></a></div>
                 <div class="Total_Count_Device"><a>디바이스</a></div>
             </div>
 
@@ -22,7 +22,7 @@
 
 
 <div class="mdi_core_total">   
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_hp.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_hp.php';?>
 
 <div class="mdi_core">   
 
@@ -34,7 +34,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_msi.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_msi.php';?>
 
 <div class="mdi_core">   
 
@@ -45,7 +45,7 @@
 
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_asus.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_asus.php';?>
 
 <div class="mdi_core">   
 
@@ -57,7 +57,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_dell.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_dell.php';?>
 
 <div class="mdi_core">   
 
@@ -69,7 +69,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_samsung.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_samsung.php';?>
 
 <div class="mdi_core">   
 
@@ -82,7 +82,7 @@
 
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_lg.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_lg.php';?>
 
 <div class="mdi_core">   
 
@@ -111,7 +111,7 @@
 
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_CorePie2.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_CorePie2.php';?>
 <div class="mdi_corepie">   
 <div id="mdi_CorePie2" style="width: 800px; height: 400px;"></div>
 </div>

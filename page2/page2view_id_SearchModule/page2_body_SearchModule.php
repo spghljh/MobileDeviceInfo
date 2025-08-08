@@ -1,5 +1,5 @@
 <div class="page2_body_content_search">
-               <form class="cpulist_searchbox_form" action="./page2_SearchModule_ResultPage.php" method="get">
+               <form class="cpulist_searchbox_form" action="/mdi1/page2/page2_SearchModule_ResultPage.php" method="get">
 
                   <select class ="category" name="catgo"><option value="name_device">name_device</option></select>
 

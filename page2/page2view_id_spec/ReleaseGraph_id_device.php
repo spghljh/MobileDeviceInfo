@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <?php
     
@@ -38,7 +38,7 @@
               
               <div class="chart_div_image3" style="width:80px;">
                   <div>
-                  <a class="chart_div_image3_parameter" href="../page2/page2_SearchModule_ResultPage.php?catgo=release_device&search=<?=$release_device?>"><?=$release_device?></a>
+                  <a class="chart_div_image3_parameter" href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=release_device&search=<?=$release_device?>"><?=$release_device?></a>
                   </div>
               </div>
 
@@ -60,8 +60,8 @@
                     font-weight:700 !important;
                     margin-right:-5px !important;
                     margin-left:-8px !important;
-                    " href="../page2/page2_SearchModule_ResultPage.php?catgo=release_device&search=<?=$release_device?>"><?=$release_device?></a>
-                    <a href="../page2/page2_SearchModule_ResultPage.php?catgo=release_device&search=<?=$release_device?>">년 출시 다른 제품</a>
+                    " href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=release_device&search=<?=$release_device?>"><?=$release_device?></a>
+                    <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=release_device&search=<?=$release_device?>">년 출시 다른 제품</a>
                   </div>
               </div>
 

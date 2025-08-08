@@ -9,7 +9,7 @@
 
 <div class="chart_div_CpuGraph">
 
-<?php require $_SERVER['DOCUMENT_ROOT'].'/page2/page2view_id_cpuCount/cpuGraph.php';?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/page2view_id_cpuCount/cpuGraph.php';?>
  
 
 

@@ -1,12 +1,12 @@
 <head>
 <title>index.php</title>
 <meta charset="utf-8">
-<link href="./css/index_body_index.css" rel="stylesheet">
-<link href="./css/main_header.css" rel="stylesheet">
-<link href="./css/user.css" rel="stylesheet">
+<link href="/mdi1/css/index_body_index.css" rel="stylesheet">
+<link href="/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/css/user.css" rel="stylesheet">
 </head>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
 
 <style>
 .Module_Layout_1_1_2{
@@ -42,8 +42,8 @@ background: linear-gradient(white, rgb(248,246,247), rgb(241,217,231) ) !importa
     <div class="Module_Layout_1_1_1" style="width : 1309px;">
         <div class="Module_Layout_1_1_1_title">
             <div class="Module_Layout_1_1_1_title_0"><a style="font-size:18px;">P</a></div>
-            <div class="Module_Layout_1_1_1_title_1"><a class = "Module_Layout_1_1_1_title_00" onclick="location.href='./page1/page1_list.php'">프로세서 탐색</a></div>
-            <div class="Module_Layout_1_1_1_title_2"><a class = "Module_Layout_1_1_1_title_00_ToBase" onclick=" location.href= './page3/page3_list_base.php' ">자세히</a></div>
+            <div class="Module_Layout_1_1_1_title_1"><a class = "Module_Layout_1_1_1_title_00" onclick="location.href='/mdi1/page1/page1_list.php'">프로세서 탐색</a></div>
+            <div class="Module_Layout_1_1_1_title_2"><a class = "Module_Layout_1_1_1_title_00_ToBase" onclick=" location.href= '/mdi1/page3/page3_list_base.php' ">자세히</a></div>
         </div>
     </div>
 <!--div class="Module_Layout_1_1_1"-->
@@ -52,15 +52,15 @@ background: linear-gradient(white, rgb(248,246,247), rgb(241,217,231) ) !importa
     <div class="Module_Layout_1_1_2" style="width : 1309px; padding-left:40px;">
         <div class="Module1_start" style="width:600px;">
             <div class="Total_Count" onclick="location.href='./page1/page1_list.php' ">
-                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_TotalCpu.php';?></a></div>
+                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_TotalCpu.php';?></a></div>
                 <div class="Total_Count_Processor"><a>프로세서</a></div>
             </div>
             <div class="Hot_Items1">
                 <div class="Hot_Items2_1"><div class="Hot_Items2_1_1"><a>실시간 인기 프로세서</a></div></div>
-                <div class="Hot_Items2_2"><div class="Hot_Items2_2_1"><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_hotcpu.php';?></div></div>
+                <div class="Hot_Items2_2"><div class="Hot_Items2_2_1"><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_hotcpu.php';?></div></div>
             </div>
         </div>
-        <div class="Module1_start_slider"><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_SliderCpu.php';?></div>
+        <div class="Module1_start_slider"><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_SliderCpu.php';?></div>
     </div>
 <!--div class="Module_Layout_1_1_2"-->
 
@@ -100,15 +100,15 @@ background: linear-gradient(white, rgb(248,246,247), rgb(241,217,231) ) !importa
     <div class="Module_Layout_1_1_2" style="width : 1309px; padding-left:40px;">
         <div class="Module1_start" style="width:600px;">
             <div class="Total_Count" onclick="location.href='./page2/page2_list.php' " style="margin-right:40px; margin-left: -20px;">
-                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_TotalDevice.php';?></a></div>
+                <div class="Total_Count_Amount"><a><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_TotalDevice.php';?></a></div>
                 <div class="Total_Count_Device"><a>디바이스</a></div>
             </div>
             <div class="Hot_Items2">
                 <div class="Hot_Items2_1"><div class="Hot_Items2_1_1"><a>실시간 인기 디바이스</a></div></div>
-                <div class="Hot_Items2_2"><div class="Hot_Items2_2_1"><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_hotdevice.php';?></div></div>
+                <div class="Hot_Items2_2"><div class="Hot_Items2_2_1"><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_hotdevice.php';?></div></div>
             </div>
         </div>
-        <div class="Module1_start_slider"><?php include $_SERVER['DOCUMENT_ROOT'].'/index_tool_SliderDevice.php';?></div>
+        <div class="Module1_start_slider"><?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/index_tool_SliderDevice.php';?></div>
     </div>
 <!--div class="Module_Layout_1_1_2"-->
 

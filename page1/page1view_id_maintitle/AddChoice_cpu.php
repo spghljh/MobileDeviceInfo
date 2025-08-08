@@ -15,7 +15,7 @@
 	else 
 		$id_cpu = "";
 
-  include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';
 	$sql = "select * from mcl where id_cpu=$id_cpu";	// 레코드 검색
 	$result = mysqli_query($con, $sql);			// SQL 명령 실행
 
@@ -62,7 +62,7 @@ testfun(); // 해당 id_cpu의 choice_cpu 1 증가
 
 
 echo "<script>
-location.href = 'page1_Choice.php?id_cpu='+$id_cpu;
+location.href = '/mdi1/page1/page1_Choice.php?id_cpu='+$id_cpu;
   </script>";
 // page1_Choice.php : 사용자 세션에 추가하는 페이지
 
@@ -97,7 +97,7 @@ $id_cpu = $_GET["id_cpu"];
 else 
 $id_cpu = "";
 
-include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';
+include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';
 $sql = "select * from mcl where id_cpu=$id_cpu";	// 레코드 검색
 $result = mysqli_query($con, $sql);			// SQL 명령 실행
 

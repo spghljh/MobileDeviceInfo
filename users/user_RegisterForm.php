@@ -1,14 +1,14 @@
 <head>
 <title>user_LoginForm</title>
 <meta charset="utf-8">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/main_header_menu_search.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
+<link href="/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/css/main_header_menu_search.css" rel="stylesheet">
+<link href="/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/css/index_body.css" rel="stylesheet">
 </head>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
 
 <div class="ground"><!--div class="ground"-->
 <div class="index_content"><!--div class="index_content"-->
@@ -157,7 +157,7 @@
 
 								<div class="user_layout_form_line_box1">
 
-                <?php include $_SERVER['DOCUMENT_ROOT'].'/users/user_semi.php';?>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/users/user_semi.php';?>
 
 								<a class="user_layout_form_line_box1_semi" style="margin-bottom:-15px;">회원 가입</a>
 

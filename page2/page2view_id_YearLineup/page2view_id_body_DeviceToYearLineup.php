@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <div class="DeviceToYearLineup">
 <table class="cpulist_table_page1">
@@ -58,13 +58,13 @@
 
     <td>
         <div class="total1_name_device" style="margin-left:-100px;">
-            <div class="total2_name_device"><a href="../page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
+            <div class="total2_name_device"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
         </div>
     </td>
    
     <td style="margin-left: 50px;">
         <div class="total1_cpuindevice">
-            <div class="total2_cpuindevice"><a href="../page2/page2view_id.php?id_device=<?=$id_device?>"><?=$cpu_device?></a></div>
+            <div class="total2_cpuindevice"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$cpu_device?></a></div>
         </div>
     </td>
 

@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
 
 <?php
 
@@ -64,7 +64,7 @@ $manf_cpu= $row["manf_cpu"];
               <div class="chart_div_image4" style="width:45px;">
                  
                 <div class="chart_div_image4_brand_cpu">
-                    <a href="../page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>"><?php require $_SERVER['DOCUMENT_ROOT'].'/page1/perDeviceCpuBrand.php'; ?></a>
+                    <a href="/mdi1/page1/page1_SearchModule_ResultPage.php?catgo=manf_cpu&search=<?=$manf_cpu?>"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/perDeviceCpuBrand.php'; ?></a>
                 </div>
               </div>
 
@@ -73,7 +73,7 @@ $manf_cpu= $row["manf_cpu"];
 
 
 
-                  <a class="chart_div_image3_parameter" href="../page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$cpu_device?></a>
+                  <a class="chart_div_image3_parameter" href="/mdi1/page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$cpu_device?></a>
                   </div>
               </div>
 
@@ -88,8 +88,8 @@ $manf_cpu= $row["manf_cpu"];
                     font-weight:700 !important;
                     margin-right:-5px !important;
                     margin-left:-8px !important;
-                    " href="../page2/page2_SearchModule_ResultPage.php?catgo=cpu_device&search=<?=$cpu_device?>"><?=$cpu_device?></a>
-                    <a href="../page2/page2_SearchModule_ResultPage.php?catgo=cpu_device&search=<?=$cpu_device?>">를 탑재한 다른 제품</a>
+                    " href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=cpu_device&search=<?=$cpu_device?>"><?=$cpu_device?></a>
+                    <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=cpu_device&search=<?=$cpu_device?>">를 탑재한 다른 제품</a>
                   </div>
               </div>
 
