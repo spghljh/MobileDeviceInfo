@@ -13,7 +13,7 @@ $id_device = $_GET["id_device"];
 else 
 $id_device = "";
 
-include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';
+include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';
 $sql = "select * from mdl where id_device=$id_device";	// 레코드 검색
 $result = mysqli_query($con, $sql);			// SQL 명령 실행
 $row = mysqli_fetch_assoc($result);			// 레코드 가져오기
@@ -96,7 +96,7 @@ $id_device = $_GET["id_device"];
 else 
 $id_device = "";
 
-include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';
+include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';
 $sql = "select * from mdl where id_device=$id_device";	// 레코드 검색
 $result = mysqli_query($con, $sql);			// SQL 명령 실행
 

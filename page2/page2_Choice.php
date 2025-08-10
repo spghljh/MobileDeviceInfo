@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 
 <?php
     if(!isset($_SESSION)) 
@@ -32,7 +32,7 @@
 
 {
                 echo "<script>
-                location.href = '/mdi1/users/user_LoginForm.php';
+                location.href = '/users/user_LoginForm.php';
               </script>";
 
 

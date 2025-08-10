@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 
 <?php
     

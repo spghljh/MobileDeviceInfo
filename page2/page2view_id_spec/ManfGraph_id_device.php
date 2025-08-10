@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 
 <?php
   
@@ -54,14 +54,14 @@
               <div class="chart_div_image4" style="width:45px;">
                 
                   <div class="chart_div_image4_brand">
-                  <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/perBrand.php'; ?></a>
+                  <a href="/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>"><?php require $_SERVER['DOCUMENT_ROOT'].'/page2/perBrand.php'; ?></a>
                   </div>
                  
               </div>
 
               <div class="chart_div_image3" style="width:80px; justify-content:left; font-size:18;">
                   <div>
-                  <a class="chart_div_image3_parameter" href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>"><?=$manf_device?></a>
+                  <a class="chart_div_image3_parameter" href="/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>"><?=$manf_device?></a>
                   </div>
               </div>
 
@@ -77,9 +77,9 @@
                     font-weight:700 !important;
                     margin-right:-5px !important;
                     margin-left:-8px !important;
-                    " href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>">
+                    " href="/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>">
                     <?=$manf_device?></a>
-                    <a href="/mdi1/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>">사의 다른 제품</a>
+                    <a href="/page2/page2_SearchModule_ResultPage.php?catgo=manf_device&search=<?=$manf_device?>">사의 다른 제품</a>
                   </div>
               </div>
 

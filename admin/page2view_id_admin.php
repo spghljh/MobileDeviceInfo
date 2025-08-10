@@ -1,23 +1,23 @@
 <head>
 <title>page2view_id.php</title>
 <meta charset="utf-8">
-<link href="../css/index_body_admin.css" rel="stylesheet">
-<link href="../css/main_header_menu_search.css" rel="stylesheet">
-<link href="../css/page2view_id_body.css" rel="stylesheet">
-<link href="../css/page2view_id_ForMainTitle.css" rel="stylesheet">
-<link href="../css/page2view_id_CpuGraph.css" rel="stylesheet">
-<link href="../css/page0_body_total.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header_menu_search.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_body.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_ForMainTitle.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_CpuGraph.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page0_body_total.css" rel="stylesheet">
 <!--page2view_id 처럼 통합 필요 : version2-line_spec-chart_div 로-->
-<link href="../css/page2view_id_body_DeviceToManf.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/id_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/release_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/type_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/name_device.css" rel="stylesheet">
-<link href="../css/page2view_id_spec/manf_device.css" rel="stylesheet">
-<link href="../css/main_header_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_body_DeviceToManf.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_spec/id_device.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_spec/release_device.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_spec/type_device.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_spec/name_device.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_spec/manf_device.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header_admin.css" rel="stylesheet">
 <!--page2view_id 처럼 통합 필요 : version2-line_spec-chart_div 로-->
 
-<link href="../css/page2view_id_body_modify.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2view_id_body_modify.css" rel="stylesheet">
 </head>
 
 

@@ -1,7 +1,8 @@
 <?php
+$appRoot = '/mdi1'; // 앱 루트 경로
+?>
 
-
-
+<?php
     
     if (isset($_SESSION["userid"])) 
         $userid = $_SESSION["userid"];
@@ -21,8 +22,7 @@
 ?>                
             <div class="user_login_button">
                 <div class ="user_login">
-  
-                    <a class ="user_login_inside" href="/mdi1/users/user_LoginForm.php">로그인</a>
+                    <a class ="user_login_inside" href="<?= $appRoot ?>/users/user_LoginForm.php">로그인</a>
                     
                 </div>
             </div>
@@ -42,7 +42,7 @@
         <div class="user_login_button">
                 <div class ="user_login">
               
-                    <a class ="user_login_inside" href="/mdi1/users/page_user_room_Choice.php" style="color : red;">관리자</a>
+                    <a class ="user_login_inside" href="/users/page_user_room_Choice.php" style="color : red;">관리자</a>
                 </div>
             </div>
   
@@ -53,7 +53,7 @@
             <div class="user_login_button_logged">
                 <div class ="user_login_logged">
               
-                    <a class ="user_login_inside_logged" href="/mdi1/users/page_user_room_Choice.php"><?=$logged?></a>
+                    <a class ="user_login_inside_logged" href="/users/page_user_room_Choice.php"><?=$logged?></a>
                     
                 </div>
             </div>

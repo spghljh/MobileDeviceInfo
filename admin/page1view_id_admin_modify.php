@@ -4,14 +4,14 @@
 <head>
 <title>page1view_id.php</title>
 <meta charset="utf-8">
-<link href="../css/page1view_id_body.css" rel="stylesheet">
-<link href="../css/page1view_id_ForMainTitle.css" rel="stylesheet">
-<link href="../css/page1view_id_body_CpuSpecToDevice.css" rel="stylesheet">
-<link href="../css/index_body_admin.css" rel="stylesheet">
-<link href="../css/main_header_admin.css" rel="stylesheet">
-<link href="../css/page1view_id_body_modify.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page1view_id_body.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page1view_id_ForMainTitle.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page1view_id_body_CpuSpecToDevice.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page1view_id_body_modify.css" rel="stylesheet">
 
-<link href="../css/all_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/all_admin.css" rel="stylesheet">
 </head>
 
 

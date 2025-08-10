@@ -7,8 +7,8 @@
 <link href="/mdi1/css/page1_body.css" rel="stylesheet">
 <link href="/mdi1/css/page0_body_total.css" rel="stylesheet">
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
 
 
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -96,7 +96,7 @@
 
 
 <div style="margin-left:40px;">
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_module.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_module.php';?>
 </div>
 
 
@@ -145,14 +145,14 @@
 
     <td>
         <div class="total1_manf_image">
-            <div class="total2_manf_image"><?php include($_SERVER['DOCUMENT_ROOT'] . '/mdi1/page1/percpuBrand.php');
+            <div class="total2_manf_image"><?php include($_SERVER['DOCUMENT_ROOT'] . '/page1/percpuBrand.php');
  ?></div>
         </div>
     </td>
 
     <td>
         <div class="total1_name">
-            <div class="total2_name"><a href="/mdi1/page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$name_cpu?></a></div>
+            <div class="total2_name"><a href="/page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$name_cpu?></a></div>
         </div>
     </td>
 

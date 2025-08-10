@@ -1,3 +1,7 @@
+<?php
+$appRoot = '/mdi1'; // 앱 루트 경로
+?>
+
 
 <?php
 if(!isset($_SESSION)) 
@@ -17,6 +21,7 @@ $username = "";
 ?>
 
 
+
 <div class="main_header_part" ><!--div class="main_header_part"-->
 <div class="main_header"><!--div class="main_header"-->
 
@@ -34,9 +39,7 @@ $username = "";
     <div class="main_header_line2_3_update_outer">
         <div class="main_header_line2_3_update">
             <div class="main_header_menu_content1_update_title" >
-
-                <a href="/mdi1/index.php">MobileDeviceInfo</a>
-
+            <a href="<?= $appRoot ?>/index.php">MobileDeviceInfo</a>
             </div>
         </div>
         <div class="main_header_line2_3_update">
@@ -54,7 +57,7 @@ $username = "";
            <div class="drop2">
                 <div class="drop1_menu0">
                     <div class="drop1_menu_title_false">
-                        <a href="/mdi1/page3/page1_mdi.php"></a>
+                        <a href="/page3/page1_mdi.php"></a>
                     </div>
                     <div class="drop1_menu_title_true">
 
@@ -104,7 +107,7 @@ $username = "";
                         <div class="drop1_menu_title_true_1" style="margin-left:30px; margin-right:40px;">
                            
                              <div class="drop1_menu_title_true_1_title1_search">
-                             <?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page0_total/page0view_id_SearchModule/page0_body_SearchModule_cpu.php';?>
+                             <?php include $_SERVER['DOCUMENT_ROOT'].'/page0_total/page0view_id_SearchModule/page0_body_SearchModule_cpu.php';?>
 
                             </div>
 
@@ -115,7 +118,7 @@ $username = "";
                             </div>
 
                             <div class="drop1_menu_title_true_1_title2_search">
-                            <?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page0_total/page0view_id_SearchModule/page0_body_SearchModule_device.php';?>
+                            <?php include $_SERVER['DOCUMENT_ROOT'].'/page0_total/page0view_id_SearchModule/page0_body_SearchModule_device.php';?>
 
                             </div>
 
@@ -143,7 +146,7 @@ $username = "";
 
                                 <div class="drop1_menu_title_true_1_title1_text_base" >
 
-                                <a style="font-size: 18px; " href="/mdi1/page3/page3_list_base.php">프로세서 베이스 확인하기</a>
+                                <a style="font-size: 18px; " href="/page3/page3_list_base.php">프로세서 베이스 확인하기</a>
                                 </div>
 
                         </div>
@@ -161,7 +164,7 @@ $username = "";
                                 </div>
 
                                 <div class="drop1_menu_title_true_1_title1_text_base">
-                                <a style="font-size: 18px;" href="/mdi1/page3/page3_list_base.php#Module_Layout_1_device">디바이스 베이스 확인하기</a>
+                                <a style="font-size: 18px;" href="/page3/page3_list_base.php#Module_Layout_1_device">디바이스 베이스 확인하기</a>
                                 </div>
                         </div>
 
@@ -186,7 +189,7 @@ $username = "";
                     </div>
                     <div class="drop1_menu_title_false">
 
-                        <a href="/mdi1/page3/page1_mdi.php"></a>
+                        <a href="/page3/page1_mdi.php"></a>
 
                     </div>
                 </div>
@@ -206,7 +209,7 @@ $username = "";
 <div class="drop_yet0"><a>P1</a></div>
 <div class="drop_yet1">
 
-    <a href="/mdi1/page1/page1_list.php" style="color : white">프로세서 목록</a>
+<a href="<?= $appRoot ?>/page1/page1_list.php" style="color:white">프로세서 목록</a>
 </div>
 </div>
 
@@ -226,7 +229,7 @@ $username = "";
 <div class="drop_yet0"><a>D1</a></div>
 <div class="drop_yet1">
 
-    <a href="/mdi1/page2/page2_list.php" style="color : white">디바이스 목록</a>
+<a href="<?= $appRoot ?>/page2/page2_list.php" style="color:white">디바이스 목록</a>
 
 </div>
 </div>
@@ -247,7 +250,7 @@ $username = "";
 <div class="drop_yet0"><a>B</a></div>
 <div class="drop_yet1">
 
-    <a href="/mdi1/page3/page3_list_base.php" style="color:white;">베이스</a>
+<a href="<?= $appRoot ?>/page3/page3_list_base.php" style="color:white;">베이스</a>
 
 </div>
 </div>
@@ -290,7 +293,7 @@ $username = "";
 <div class="main_header_line2_3_003">  
     <div class="main_header_menu_content4">
         <div class="drop2_title" style="margin-top:2px;">
-            <?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/user.php';?>
+            <?php require $_SERVER['DOCUMENT_ROOT'].'/user.php';?>
             
         <div class="drop2_user"></div>
     </div>

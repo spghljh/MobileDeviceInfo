@@ -11,7 +11,7 @@
 */
 ?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 <?php
 
 $mdi02 = "SELECT manf_device, COUNT(id_device) FROM mdl GROUP BY manf_device HAVING manf_device='hp';";

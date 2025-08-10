@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 
 <?php
           		// DB 연결
@@ -883,7 +883,7 @@ if ($manf_device_num1>0){
 
         <div class="chart_div_BrandGraph_image1" >
             <div class="chart_div_BrandGraph_image_content">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/mdi1/page1/BrandGraph/perBrand.php'); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/page1/BrandGraph/perBrand.php'); ?>
             </div>
         </div>
 
@@ -917,7 +917,7 @@ if ($manf_device_num2>0){
 
     <div class="chart_div_BrandGraph_image1" >
         <div class="chart_div_BrandGraph_image_content">
-        <a><?php include($_SERVER['DOCUMENT_ROOT'] . '/mdi1/page1/BrandGraph/perBrand.php'); ?></a>
+        <a><?php include($_SERVER['DOCUMENT_ROOT'] . '/page1/BrandGraph/perBrand.php'); ?></a>
         </div>
     </div>
 

@@ -29,12 +29,12 @@
             </div>
             <div class="Module_Layout_1_1_1_1_1">
 
-                <a class = "Module_Layout_1_1_1_1_1_0" onclick="location.href='/mdi1/page1/page1_list.php'">MobileDeviceInfo</a>
+                <a class = "Module_Layout_1_1_1_1_1_0" onclick="location.href='/page1/page1_list.php'">MobileDeviceInfo</a>
 
             </div>
 
             <div class="Module_Layout_1_1_1_1_2">
-                <a class = "Module_Layout_1_1_1_1_1_0" onclick="location.href='/mdi1/page1/page1_list.php'"></a>                            
+                <a class = "Module_Layout_1_1_1_1_1_0" onclick="location.href='/page1/page1_list.php'"></a>                            
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@
 
 
 <div class="mdi_core_total">   
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_2core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_2core.php';?>
 
 <div class="mdi_core">   
 
@@ -77,7 +77,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_4core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_4core.php';?>
 
 <div class="mdi_core">   
 
@@ -88,7 +88,7 @@
 
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_6core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_6core.php';?>
 
 <div class="mdi_core">   
 
@@ -100,7 +100,7 @@
 </div>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_8core.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_8core.php';?>
 
 <div class="mdi_core">   
 

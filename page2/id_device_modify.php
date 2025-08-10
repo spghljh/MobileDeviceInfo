@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 
 <?php
     if (isset($_GET["id_device"]))				// $_GET["num"] : 레코드 번호
@@ -77,7 +77,7 @@ $result922 = mysqli_query($con, $sql922);		// SQL 명령 실행
 
     // 로그인 폼으로 이동
     echo "<script>
-	          location.href = '/mdi1/page2/page2view_id_admin.php?id_device=$id_device';
+	          location.href = '/page2/page2view_id_admin.php?id_device=$id_device';
 	      </script>";
 
 

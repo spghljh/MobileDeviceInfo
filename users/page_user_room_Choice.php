@@ -1,9 +1,9 @@
 <head>
 <title>user</title>
 <meta charset="utf-8">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/user.css" rel="stylesheet">
 <link href="./index.css" type="text/css" rel=stylesheet>
 </head>
 

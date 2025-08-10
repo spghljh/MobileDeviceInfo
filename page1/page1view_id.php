@@ -11,8 +11,8 @@
 <link href="/mdi1/css/page1view_id_body_CpuSpecToDevice.css" rel="stylesheet">
 </head>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
 
 
 <?php
@@ -98,7 +98,7 @@ if (isset($_GET["id_cpu"]))				// $_GET["num"] : 레코드 번호
 
                                             <div class="page1view_id_body_title_part4_ForMainTitle">
                                             <table>
-                                                <tr><td><?php include($_SERVER['DOCUMENT_ROOT'] . '/mdi1/page1/page1view_id_maintitle/AddChoice_cpu.php'); ?></td></tr>
+                                                <tr><td><?php include($_SERVER['DOCUMENT_ROOT'] . '/page1/page1view_id_maintitle/AddChoice_cpu.php'); ?></td></tr>
                                             </table>
                                             </div>
 
@@ -203,27 +203,27 @@ if (isset($_GET["id_cpu"]))				// $_GET["num"] : 레코드 번호
 
 
         <div class="module_spec_cpu_version2">
-        <?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_spec/ManfGraph_id_cpu.php');?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_spec/ManfGraph_id_cpu.php');?>
         </div>  
 
         <div class="module_spec_cpu_version2">
-        <?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_spec/ReleaseGraph_id_cpu.php');?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_spec/ReleaseGraph_id_cpu.php');?>
         </div>
 
         <div class="module_spec_cpu_version2">
-        <?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_spec/CoreGraph_id_cpu.php');?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_spec/CoreGraph_id_cpu.php');?>
         </div>
 
         <div class="module_spec_cpu_version2">
-        <?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_spec/ThreadGraph_id_cpu.php');?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_spec/ThreadGraph_id_cpu.php');?>
         </div>
 
         <div class="module_spec_cpu_version2">
-        <?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_spec/MaxghzGraph_id_cpu.php');?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_spec/MaxghzGraph_id_cpu.php');?>
         </div>
                                     
         <div class="module_spec_cpu_version2">
-        <?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_spec/MinghzGraph_id_cpu.php');?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_spec/MinghzGraph_id_cpu.php');?>
         </div>
 
 </div>
@@ -265,9 +265,9 @@ if (isset($_GET["id_cpu"]))				// $_GET["num"] : 레코드 번호
 <div class="module3">
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/action/(MDL_id_cpu)WITH(MDL_MANF_id_cpu)_CREATE.php';?>
-<?php include ($_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/BrandGraph/BrandGraph_MDL_MANF_id_cpu.php');?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/action/(MDL_id_cpu)WITH(MDL_MANF_id_cpu)_DROP.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/action/(MDL_id_cpu)WITH(MDL_MANF_id_cpu)_CREATE.php';?>
+<?php include ($_SERVER['DOCUMENT_ROOT'].'/page1/BrandGraph/BrandGraph_MDL_MANF_id_cpu.php');?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/action/(MDL_id_cpu)WITH(MDL_MANF_id_cpu)_DROP.php';?>
 
 
 </div> 
@@ -312,7 +312,7 @@ if (isset($_GET["id_cpu"]))				// $_GET["num"] : 레코드 번호
 
   
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/page1view_id_body_CpuSpecToDevice.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page1/page1view_id_body_CpuSpecToDevice.php';?>
 
     
 

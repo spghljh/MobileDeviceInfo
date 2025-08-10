@@ -1,0 +1,2 @@
+## CHANGELOG 링크
+- [CHANGELOG.md](./CHANGELOG.md)

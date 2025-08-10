@@ -27,10 +27,10 @@
 <head>
 <title>user_LoginForm</title>
 <meta charset="utf-8">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/main_header_menu_search.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header_menu_search.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body.css" rel="stylesheet">
 </head>
 
 

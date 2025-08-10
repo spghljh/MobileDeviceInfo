@@ -11,8 +11,8 @@
 </head>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
 
 
 
@@ -137,7 +137,7 @@
             <div class="manf_cpu_base">
 
                 <div class="manf_cpu_base_logo">
-                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/percpuBrand.php'; ?></a>
+                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/page1/percpuBrand.php'; ?></a>
                 </div>
 
                 <div class="manf_cpu_base_name">
@@ -362,7 +362,7 @@
             <div class="manf_device_base">
 
                 <div class="manf_device_base_logo">
-                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page2/perBrand.php'; ?></a>
+                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/page2/perBrand.php'; ?></a>
                 </div>
 
                 <div class="manf_device_base_name">

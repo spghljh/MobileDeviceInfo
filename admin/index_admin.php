@@ -1,8 +1,8 @@
 <head>
 <title>index.php</title>
 <meta charset="utf-8">
-<link href="../css/index_body_admin.css" rel="stylesheet">
-<link href="../css/main_header_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header_admin.css" rel="stylesheet">
 </head>
 
 

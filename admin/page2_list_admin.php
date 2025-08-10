@@ -10,11 +10,11 @@
 <head>
 <title>page2.php</title>
 <meta charset="utf-8">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body_admin.css" rel="stylesheet">
-<link href="../css/page2_body_admin.css" rel="stylesheet">
-<link href="../css/page0_body_total_admin.css" rel="stylesheet">
-<link href="../css/main_header_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2_body_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page0_body_total_admin.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header_admin.css" rel="stylesheet">
 </head>
 
 

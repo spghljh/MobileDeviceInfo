@@ -7,9 +7,9 @@
 <link href="/mdi1/css/index_body.css" rel="stylesheet">
 <link href="/mdi1/css/page0_body_total.css" rel="stylesheet">
 <link href="/mdi1/css/user.css" rel="stylesheet">
-<link rel="stylesheet" href="/mdi1/common/css/layout.css">
+<link rel="stylesheet" href="/common/mdi1/css/layout.css">
 </head>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 
 
 <?php 
@@ -34,7 +34,7 @@ $sql2 = mq("select * from mdl where $catagory like '%$search_con%' order by id_d
 
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
 
 
 <div class="ground"><!--div class="ground"-->
@@ -127,19 +127,19 @@ $sql2 = mq("select * from mdl where $catagory like '%$search_con%' order by id_d
 
     <td>
         <div class="total1_manf_image">
-            <div class="total2_manf_image"><?php include "/mdi1/page2/perBrand.php"; ?></div>
+            <div class="total2_manf_image"><?php include "/page2/perBrand.php"; ?></div>
         </div>
     </td>
 
     <td>
         <div class="total1_name_device">
-            <div class="total2_name_device"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
+            <div class="total2_name_device"><a href="/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
         </div>
     </td>
    
     <td style="margin-left:-30px">
         <div class="total1_cpuindevice">
-            <div class="total2_cpuindevice"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$cpu_device?></a></div>
+            <div class="total2_cpuindevice"><a href="/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$cpu_device?></a></div>
         </div>
     </td>
 

@@ -137,7 +137,7 @@
             <div class="manf_cpu_base">
 
                 <div class="manf_cpu_base_logo">
-                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/mdi1/page1/percpuBrand.php'; ?></a>
+                <a style="width:28px; height:28px;"><?php require $_SERVER['DOCUMENT_ROOT'].'/page1/percpuBrand.php'; ?></a>
                 </div>
 
                 <div class="manf_cpu_base_name">

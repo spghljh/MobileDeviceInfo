@@ -8,7 +8,7 @@
 </head>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
 
 <div class="ground"><!--div class="ground"-->
 <div class="index_content"><!--div class="index_content"-->
@@ -157,7 +157,7 @@
 
 								<div class="user_layout_form_line_box1">
 
-                <?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/users/user_semi.php';?>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/users/user_semi.php';?>
 
 								<a class="user_layout_form_line_box1_semi" style="margin-bottom:-15px;">회원 가입</a>
 

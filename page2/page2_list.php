@@ -7,8 +7,8 @@
 <link href="/mdi1/css/page2_body.css" rel="stylesheet">
 <link href="/mdi1/css/page0_body_total.css" rel="stylesheet">
 </head>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/main_header.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/main_header.php';?>
 
 <div class="ground"><!--div class="ground"-->
 <div class="index_content"><!--div class="index_content"-->
@@ -50,7 +50,7 @@
 <!--내용-->
 
 <div style="margin-left:40px;">
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/page3/page3_mdi_module2.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/page3/page3_mdi_module2.php';?>
 </div>
 
 <table class="cpulist_table_page2">
@@ -86,20 +86,20 @@
 
     <td>
         <div class="total1_manf_image">
-            <div class="total2_manf_image"><?php include($_SERVER['DOCUMENT_ROOT'] . '/mdi1/page2/perBrand.php');
+            <div class="total2_manf_image"><?php include($_SERVER['DOCUMENT_ROOT'] . '/page2/perBrand.php');
  ?></div>
         </div>
     </td>
 
     <td>
         <div class="total1_name_device">
-            <div class="total2_name_device"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
+            <div class="total2_name_device"><a href="/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
         </div>
     </td>
    
     <td style="margin-left:-30px">
         <div class="total1_cpuindevice">
-            <div class="total2_cpuindevice"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$cpu_device?></a></div>
+            <div class="total2_cpuindevice"><a href="/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$cpu_device?></a></div>
         </div>
     </td>
 

@@ -1,11 +1,11 @@
 <head>
 <title>page1</title>
 <meta charset="utf-8">
-<link href="../css/main_header.css" rel="stylesheet">
-<link href="../css/user.css" rel="stylesheet">
-<link href="../css/index_body.css" rel="stylesheet">
-<link href="../css/page2_body.css" rel="stylesheet">
-<link href="../css/page0_body_total.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/main_header.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/user.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/index_body.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page2_body.css" rel="stylesheet">
+<link href="/mdi1/mdi1/css/page0_body_total.css" rel="stylesheet">
 </head>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 

@@ -11,7 +11,7 @@
 */
 ?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi1/mdi_con.php';?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/mdi_con.php';?>
 <?php
 
 $mdi06 = "SELECT core_cpu, COUNT(id_cpu) FROM mcl GROUP BY core_cpu HAVING core_cpu=6;";
