@@ -152,7 +152,7 @@
 
     <td>
         <div class="total1_name">
-            <div class="total2_name"><a href="/page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$name_cpu?></a></div>
+            <div class="total2_name"><a href="/mdi1/page1/page1view_id.php?id_cpu=<?=$id_cpu?>"><?=$name_cpu?></a></div>
         </div>
     </td>
 

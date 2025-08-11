@@ -93,7 +93,7 @@
 
     <td>
         <div class="total1_name_device">
-            <div class="total2_name_device"><a href="/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
+            <div class="total2_name_device"><a href="/mdi1/page2/page2view_id.php?id_device=<?=$id_device?>"><?=$name_device?></a></div>
         </div>
     </td>
    

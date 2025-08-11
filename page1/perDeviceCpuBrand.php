@@ -10,7 +10,7 @@ $manf_cpu  = $row["manf_cpu"];
                               if(($manf_cpu ==='intel'))
                               {
                                 ?>
-                              <img class="percpuBrand" src="/page1/page1view_image/intel.png" width =100% height =100%>
+                              <img class="percpuBrand" src="/mdi1/page1/page1view_image/intel.png" width =100% height =100%>
                               
                               <?php
                               }
@@ -18,7 +18,7 @@ $manf_cpu  = $row["manf_cpu"];
                               if(($manf_cpu ==='amd'))
                               {
                                 ?>
-                              <img class="percpuBrand" src="/page1/page1view_image/amd.png" width =100% height =100%>
+                              <img class="percpuBrand" src="/mdi1/page1/page1view_image/amd.png" width =100% height =100%>
                               <?php
                               }
 ?>
