@@ -10,13 +10,12 @@
 
 ## 주요 기능
 
-### 주요 기능
 ![메인 화면](./readme-img/mdi1-readme-cover-1.png)
 
-![CPU 목록](./readme-img/mdi1-readme-cover-2.png)
 
+![CPU 목록](./readme-img/mdi1-readme-cover-2.png)
 ![CPU 상세정보](./readme-img/mdi1-readme-cover-3.png)
 
-![DEVICE 목록](./readme-img/mdi1-readme-cover-4.png)
 
+![DEVICE 목록](./readme-img/mdi1-readme-cover-4.png)
 ![DEVICE 상세정보](./readme-img/mdi1-readme-cover-5.png)
